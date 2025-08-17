@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photographer's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Photographer's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gallery" class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Photo Galleries</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="images/portrait-1.jpg" class="gallery-item">
+              <img src="images/portrait-1.jpg" alt="Portrait" class="img-fluid">
+            </a>
+          </div>
+          <!-- Add more gallery items here -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-5">About Me</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="images/photographer.jpg" alt="Photographer" class="img-fluid rounded mb-4">
+          </div>
+          <div class="col-md-6">
+            <h3>John Doe</h3>
+            <p>I am a professional photographer with over 10 years of experience in the industry. My passion for photography has led me to capture stunning images in various genres, from portraits to landscapes and events.</p>
+            <p>I strive to create unique and captivating photographs that tell a story and evoke emotions. My goal is to provide my clients with exceptional service and deliver high-quality images that exceed their expectations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Me</h2>
+        <form id="contact-form" class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+            <div class="invalid-feedback">
+              Please enter your name.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">
